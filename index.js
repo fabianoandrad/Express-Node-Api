@@ -19,6 +19,12 @@ app.get('/query', (req, res) => {
 
 
 
+app.get('/params/:nome/:cidade/:profissao', (req, res) => {
+  const params = req.params;  // O Express captura os parâmetros da URL
+  res.json(params);  // Responde com os parâmetros extraídos da URL
+});
+
+
 
 
 app.listen(port, () => {
