@@ -1,0 +1,15 @@
+{
+  "name": "express-node-api",
+  "version": "1.0.0",
+  "description": "Criação de Api usando o Node + Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
